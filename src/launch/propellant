@@ -1,0 +1,10 @@
+
+pub struct Propellant {
+    density: MassConcentration,
+    initial_volume: Volume,
+    mass: Mass,
+}
+
+pub enum PropellantType {
+    Water
+}
